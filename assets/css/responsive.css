@@ -1,0 +1,699 @@
+/* CSS for pc devices */
+@media (min-width: 1441px) {
+}
+/* CSS for laptop devices */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .voyager-daypack .text-content {
+    margin-left: 6.2rem;
+    line-height: 2rem;
+    letter-spacing: -1px;
+    color: #a7a7a7;
+    margin-bottom: 0;
+  }
+  .voyager-daypack .heading {
+    z-index: 99;
+    margin-top: -1rem;
+    margin-left: -27.8rem;
+  }
+  .drifter-dopp-kit .content,
+  .voyager-daypack .content {
+    padding: 1rem 0px;
+  }
+  .drifter-dopp-kit .content p.content-text {
+    width: 42%;
+    line-height: 2rem;
+    margin-left: 1.7rem;
+    font-size: 0.9rem;
+    color: #a7a7a7;
+    margin-top: 0;
+  }
+  .drifter-dopp-kit .content {
+    margin-left: 6rem;
+  }
+  .tanner-collections .content-text-one .title-text {
+    letter-spacing: 4.9px;
+  }
+}
+
+/* CSS for table devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* header */
+  .header-nav .logo-home {
+    width: 110px;
+  }
+  .header-nav .nav-lists {
+    margin-left: 1.5rem;
+  }
+  .header-nav .nav-lists .item {
+    margin-right: 2rem;
+  }
+  /* .banner-home */
+  .banner-home .slider-content .text-content {
+    position: relative;
+    width: 35%;
+    padding-left: 5.8rem;
+  }
+  .banner-home .slider-content .title {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  .banner-home .side-slider {
+    left: 1rem;
+    top: 6rem;
+  }
+  .banner-home .dot-numbers .list li button {
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .banner-home .side-slider .arrow button img {
+    width: 16px;
+    height: 16px;
+  }
+  .banner-home .dot-numbers .list {
+    margin-top: 1rem;
+  }
+  .banner-home .dot-numbers .list li.active {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1.5rem;
+  }
+  .banner-home .dot-numbers .list li.active button {
+    font-size: 1.75rem;
+  }
+  .banner-home .slider-content .text-content .link-gear-up {
+    transform: translate(72px, 23px);
+  }
+  .voyager-daypack {
+    margin: 4rem 0 6rem;
+    overflow: unset;
+  }
+  .voyager-daypack .content {
+    max-width: calc(100% + 10rem);
+    margin-left: -13rem;
+    margin-top: 0.2rem;
+    padding: 1rem;
+  }
+  .voyager-daypack .text-content {
+    margin-left: 4rem;
+    padding: 0;
+    max-width: 100%;
+    line-height: 1.7rem;
+    margin-bottom: 0;
+  }
+  .voyager-daypack .heading {
+    margin-left: -11.8rem;
+  }
+  .voyager-daypack .heading .title {
+    font-size: 1.5rem;
+    letter-spacing: 5.8px;
+    line-height: 30px;
+  }
+  .voyager-daypack .heading .sub-title {
+    font-size: 1rem;
+    line-height: 30px;
+    transform: translate(18px, 4px);
+  }
+  .img-content {
+    height: 16rem;
+  }
+  /* .drifter-dopp-kit */
+  .drifter-dopp-kit {
+    padding: 6rem 0;
+  }
+  .drifter-dopp-kit .content {
+    margin-right: -12rem;
+    margin-left: 3rem;
+    padding: 1rem;
+    padding-right: 12rem;
+  }
+  .drifter-dopp-kit .content p.content-text {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .drifter-dopp-kit .content .title {
+    font-size: 1.5rem;
+    letter-spacing: 5.8px;
+    line-height: 30px;
+  }
+  .drifter-dopp-kit .content .navy-salt {
+    top: -1.4rem;
+    font-size: 1.7rem;
+    letter-spacing: 5px;
+    height: 1.2rem;
+    z-index: 1;
+  }
+  .drifter-dopp-kit .content-title {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(9.6rem, -2.1rem);
+  }
+  .drifter-dopp-kit .content .sub-title {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-left: 3.1rem;
+  }
+
+  /* .tanner-collections */
+  .tanner-collections {
+    padding-top: 4rem;
+  }
+  .tanner-collections .heading .title {
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+  }
+  .tanner-collections .heading .sub-title {
+    font-size: 1rem;
+  }
+  .tanner-collections .heading .sub-title::before {
+    transform: translate(-131px, -50%);
+    width: 6rem;
+  }
+  .tanner-collections .heading .sub-title::after {
+    width: 19.5rem;
+  }
+  .tanner-collections .content-img .img-page {
+    margin: 0;
+  }
+  .tanner-collections .content-text {
+    margin-top: 1.5rem;
+    padding-left: 0.8rem;
+  }
+  .tanner-collections .content-text .title-text {
+    font-size: 1.5rem;
+    letter-spacing: -1.6px;
+    margin-bottom: 1rem;
+  }
+  .tanner-collections .content-img-one .img-page {
+    width: 100%;
+    margin-top: -8.2rem;
+    margin-left: -1.9rem;
+  }
+  .tanner-collections .content-text::after {
+    left: 0.9rem;
+    top: -2.9rem;
+    height: 2.4rem;
+  }
+  .tanner-collections .content-text::before {
+    left: 0.6rem;
+    bottom: -0.6rem;
+    height: 4.7rem;
+  }
+  .tanner-collections .content-text .text {
+    margin-bottom: 0.2rem;
+  }
+  .tanner-collections .content-text .read-more {
+    margin-bottom: 0.5rem;
+  }
+  .tanner-collections .content-text-one {
+    padding-left: 4.3rem;
+    margin-top: 1rem;
+  }
+  .tanner-collections .content-text-one::before {
+    left: 3.2rem;
+    top: -5.7rem;
+    width: 2px;
+    height: 6rem;
+  }
+  .tanner-collections .content-text-one .title-text {
+    font-size: 1.5rem;
+    letter-spacing: -1.1px;
+  }
+  .tanner-collections .content-text-one .text {
+    width: 75%;
+    margin-left: 2.5rem;
+  }
+  .tanner-collections .content-text-one .read-more {
+    margin-left: 2.4rem;
+  }
+  .tanner-collections .content-img-two .img-page {
+    width: 100%;
+  }
+  .tanner-collections .content-text-two {
+    margin-top: 1.2rem;
+    padding-left: 0;
+  }
+  .tanner-collections .content-text-two .title-text {
+    font-size: 1.5rem;
+    letter-spacing: -1.1px;
+    margin-bottom: 1rem;
+  }
+  .tanner-collections .content-img-three-right .img-page {
+    margin-top: -4.1rem;
+    margin-left: -2.4rem;
+  }
+  .tanner-collections .content-text-two .text {
+    font-size: 0.9rem;
+    line-height: 23px;
+    color: #383838;
+    font-weight: 300;
+    letter-spacing: -0.7px;
+    height: 5.8rem;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+  }
+  .tanner-collections .content-img-three-left {
+    width: 74%;
+    margin-right: -1.2rem;
+    margin-top: 2.3rem;
+    position: relative;
+    z-index: 1;
+  }
+  .tanner-collections .content-img-three-right .number-page {
+    right: 6.5rem;
+  }
+  .list-products {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .list-products ul.lists {
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .list-products ul.lists li a img {
+    object-fit: contain;
+  }
+  .list-products ul.lists li {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    min-width: 160px;
+    min-height: 160px;
+    width: 160px !important;
+    height: 160px !important;
+  }
+  .list-products ul.lists li:not(:last-child) {
+    margin-right: 1rem;
+  }
+  /* .footer-home */
+  .footer-home {
+    background-color: #d5d5d5;
+    padding: 2.5rem 2rem;
+  }
+  .footer-home .footer-about {
+    margin: 0;
+    padding: 1rem 0;
+  }
+  .footer-home .footer-about p {
+    width: 85%;
+  }
+  .footer-email {
+    margin: 0;
+    padding: 1rem 0;
+  }
+  .footer-bottom {
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+  }
+
+  .footer-bottom .copyright {
+    margin-top: 1rem;
+  }
+}
+
+/*CSS for mobile devices */
+@media (max-width: 767px) {
+  /* header */
+  .header-nav {
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffff;
+    align-items: start;
+    height: 2.7rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .header-nav .nav-lists {
+    margin: 0;
+    flex-direction: column;
+    display: none;
+    background-color: #ffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .header-nav .nav-lists .item {
+    margin: 0;
+    padding: 1rem;
+  }
+  .header-nav .nav-lists .item a {
+    color: #000 !important;
+    line-height: normal;
+  }
+  .header-nav .logo-home {
+    width: 99px;
+  }
+  .menu-mobile {
+    display: block;
+    margin-top: 8px;
+  }
+  .menu-mobile svg {
+    font-size: 2rem;
+  }
+
+  /* banner-home */
+  .banner-home {
+    margin-top: 45px;
+  }
+  .banner-home .slider-content .text-content {
+    padding: 0;
+    transform: translateY(0);
+  }
+  .banner-home .side-slider {
+    display: none;
+  }
+  .banner-home .slider-content .text-content .sub-title {
+    font-size: 0.8rem;
+    width: max-content;
+    margin-bottom: 8px;
+  }
+  .banner-home .slider-content .title {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+  .banner-home .slider-content .text-content .heading {
+    margin-left: 2rem;
+  }
+  .banner-home .slider-content .text-content .link-gear-up {
+    font-size: 0.8rem;
+    transform: translate(44%, 9px);
+  }
+  .banner-home .slider-content .text-content .link-gear-up .icon-right {
+    width: 10px;
+    height: 10px;
+    margin-left: 6px;
+  }
+  .banner-home .slider-content .text-content .link-gear-up::after {
+    left: -39px;
+    top: 50%;
+    width: 33px;
+  }
+
+  /* voyager-daypack */
+  .voyager-daypack {
+    margin: 2rem 0 7rem;
+    overflow: unset;
+  }
+  .voyager-daypack .content {
+    max-width: fit-content;
+    margin: 0;
+    margin: 0 2rem;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .voyager-daypack .heading {
+    margin: 0;
+  }
+  .voyager-daypack .heading .title {
+    color: #000;
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+  }
+  .voyager-daypack .heading .sub-title {
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
+    float: none;
+    transform: translate(0);
+  }
+  .voyager-daypack .text-content {
+    line-height: 1.5rem;
+    letter-spacing: -1px;
+    color: #a7a7a7;
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+  .voyager-daypack .icon-down::after {
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .voyager-daypack .icon-down {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    z-index: 2;
+  }
+  /* .drifter-dopp-kit */
+  .drifter-dopp-kit {
+    padding: 3rem 0;
+  }
+  .drifter-dopp-kit .content {
+    padding: 1rem;
+    margin: 2rem;
+    margin-bottom: 6rem;
+    flex-direction: column;
+  }
+  .drifter-dopp-kit .content .navy-salt {
+    top: -1.1rem;
+    left: 1.4rem;
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    height: 1rem;
+  }
+  .drifter-dopp-kit .content p.content-text {
+    width: 100%;
+    line-height: 1.5rem;
+    margin: 0;
+    text-align: center;
+  }
+  .drifter-dopp-kit .content-title {
+    margin: 0;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 11rem);
+  }
+  .drifter-dopp-kit .content .icon-down {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+  }
+  .drifter-dopp-kit .content .title {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    line-height: 6px;
+  }
+  .drifter-dopp-kit .content .sub-title {
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+  /* .tanner-collections */
+  .tanner-collections {
+    padding-top: 3rem;
+  }
+  .tanner-collections .heading {
+    margin-bottom: 5.5rem;
+  }
+  .tanner-collections .heading .title {
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+  }
+  .tanner-collections .heading .sub-title {
+    margin: 0;
+    font-size: 1rem;
+    float: none;
+  }
+  .tanner-collections .heading .sub-title::before {
+    width: 4rem;
+    transform: translate(6px, -50%);
+  }
+  .tanner-collections .heading .sub-title::after {
+    transform: translate(73px, -50%);
+    width: 16.5rem;
+  }
+  .tanner-collections .number-page {
+    font-size: 2.5rem !important;
+    letter-spacing: 6px !important;
+  }
+  .tanner-collections .content-img .number-page::after {
+    width: 4rem;
+    height: 2px;
+    right: -4.5rem;
+  }
+  .tanner-collections .content-img .img-page {
+    margin: 0;
+    padding: 1rem;
+  }
+  .tanner-collections .content-text {
+    margin-top: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .tanner-collections .content-text .text {
+    width: 100%;
+  }
+  .tanner-collections .content-text .read-more {
+    margin-bottom: 3rem;
+    justify-content: center;
+  }
+  .tanner-collections .content-text .img-logo-matte {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .tanner-collections .content-text::after {
+    top: -4.9rem;
+    left: 19.9rem;
+  }
+  .tanner-collections .content-text::before {
+    height: 4.5rem;
+    left: 5.2rem;
+    bottom: -1.4rem;
+  }
+  .tanner-collections .content-text-one::before {
+    height: 3.5rem;
+    left: 5.2rem;
+    top: -10.7rem;
+    width: 2px;
+  }
+  .tanner-collections .content-text-one {
+    padding: 2rem 1rem 0;
+    margin: 0;
+    text-align: center;
+  }
+  .tanner-collections .content-text-one .title-text {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+  }
+  .tanner-collections .content-text-one .text {
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    width: 100%;
+  }
+  .tanner-collections .content-img-one .img-page {
+    margin: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+  .tanner-collections .content-text-one .read-more {
+    margin-bottom: 1rem;
+  }
+  .content-img-two {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .tanner-collections .content-img-two .img-page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .tanner-collections .content-img-two .number-page {
+    right: 33%;
+    top: -2rem;
+    transform: translateX(-50%);
+  }
+  .tanner-collections .content-text-two {
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+  }
+  .tanner-collections .content-text-two .title-text {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+  }
+  .tanner-collections .content-text-two .text {
+    width: 100%;
+  }
+  .tanner-collections .content-img-three-right .img-page {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  .tanner-collections .content-img-three-left {
+    margin: auto;
+    margin-top: 1rem;
+    float: none;
+  }
+  /* list-products */
+  .list-products {
+    padding: 2rem 0;
+  }
+  .list-products ul.lists {
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .list-products ul.lists li a img {
+    object-fit: contain;
+  }
+  .list-products ul.lists li {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    min-width: 100px;
+    min-height: 100px;
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .list-products ul.lists li:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .tanner-collections .content-img-three-right {
+    margin-top: 2rem;
+  }
+  .tanner-collections .content-img-three-right .number-page {
+    right: 0.5rem;
+    top: -1.8rem;
+  }
+  /* .footer-home */
+  .footer-home {
+    padding: 2rem 1rem;
+  }
+  .footer-home .footer-logo {
+    max-width: 6.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .footer-home .footer-lists {
+    margin: 0;
+    margin-bottom: 1rem;
+    justify-content: space-around;
+  }
+  .footer-home .footer-lists .item {
+    margin: auto;
+  }
+  .footer-home .footer-about {
+    margin: 0;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .footer-home .footer-about p {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .footer-email {
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .footer-bottom .list {
+    margin: 0;
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .footer-bottom .list li {
+    margin: auto;
+  }
+  .footer-bottom .copyright {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+}
